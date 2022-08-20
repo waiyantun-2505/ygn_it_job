@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<style type="text/css">
+		
+		input[type=text]{
+			text-align:center;
+		}
+		input[type=textarea]{
+			text-align:center;
+		}
+
+	</style>
+</head>
+<body>
+
+	
+
+	<!-- dialog -->
+	<div id="overlay">
+		<p>this is the first paragraph</p>
+	</div>
+
+	
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$.('#overlay').html("hello from this one");
+
+		$.('overlay').css({
+			"color" : "red",
+			"background-color": "black",
+		});
+	</script>
+</body>
+</html>
